@@ -1,0 +1,101 @@
+/* 
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+} */
+
+
+
+.title{
+    margin:100px 0px 0px 40%;
+}
+
+.title h1{
+    color: blue;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 7px 0px 0px 70px;
+}
+
+
+.line1 , .line2{
+    margin:400px 0px 0px 0px;
+}
+
+.container{
+display: flex;
+margin-top: -150px;
+}
+
+.parent{
+    width: 300px;
+    height: 400px;
+    background-image: url(img/lapjpeg.jpeg);
+    background-size: cover;
+    margin: 200px auto;
+    position: relative;
+    border-bottom: 4px solid aqua;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.245);
+}
+.child {
+    height:0;
+    text-align: center;   
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    background-color: red;
+}
+.child h1{
+    color: aqua;
+    padding-top: 20px ;
+    border: none;
+}
+
+.child .item{
+    width: 130px;
+    height: 130px;
+    border: 2px dashed aqua ;
+    border-radius: 50%;
+    text-align: center;
+    outline: 3px solid aqua;
+   outline-offset: 5px;
+}
+.child .item p{
+    color: aqua;
+    font-size: 30px;
+    z-index: 16;
+}
+.child .item .p1{
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+.child .item p{
+    margin-top: 5px;
+}
+.child p{
+    color: aqua;
+}
+
+button{
+    background-color: rgb(31, 158, 158);
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    /* opacity: .7; */
+}
+
+
